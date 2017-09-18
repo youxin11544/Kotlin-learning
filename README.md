@@ -2,6 +2,7 @@
 Android开发从java到kotlin，本文是增对有java基础的人学习。下面的文章是我学习kotlin之后的理解，当然里面会有一点点是copy别人的描述，我主要重点是介绍看了一些别人的文章会后的理解以及一些不好理解的地方重点拿出来描述，直到理解透彻。关于某个定义我会直接给出我认为比较好的链接给大家去看，我就不在重复造轮子。重点还是讲些不一样的东西（不如一些用法），当然肯定有写不足地方，大家可以随时吐槽。
 - [Kotlin官网-中文](https://www.kotlincn.net/)
 - [Kotlin官网-中文](https://kotlinlang.org/)
+- [huanglizhuo-github翻译的很好](https://github.com/huanglizhuo/kotlin-in-chinese)
 - [Kotlin教程链接](http://www.kotlindoc.cn/)
 
 
