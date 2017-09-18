@@ -1,17 +1,18 @@
 #初识kotlin
+（中文可以叫 科特林）
 
 #基本语法
 1.三个关键字
   - var 声明**可变**的变量
-  - val 声明**不可变**的变量
-  - fun 声明函数前面需要加上fun关键字，不同于java但是前面的方法修饰 public 这个是和java一样后面会讲到
+  - val 声明**不可变**的变量 就想java中final修饰的字符串
+  - fun kotlin声明函数前面需要加上fun关键字，不同于java但是前面的方法修饰 public 这个是和java一样后面会讲到 
 
 2.了解编译器推断
-  类型转换是自动完成的,无论何时，编译器能够检测没有其它可选项，自动地完成类型转换。
+  类型转换是自动完成的,无论何时，编译器能够检测没有其它可选项，自动地完成类型转换。关于 编译器推断 这个很多文章再讲kotlin都会提到的。
 ```
  val name = "youxin"
- val name :String = "youxin"
- //上面两个都是对的，因为kotlin会自动推断所以 ：String 可以省略，不过我建议初学着还是加上好点，以后可以去掉
+ val name2 :String = "youxin"
+ //上面两个都是对的，因为kotlin会自动推断所以 ：String 可以省略，不过我建议初学着还是加上好点，以后可以去掉，编译器在编译name的时候发觉后面给他赋值的是一个字符串，那么编译器就会推断他的类型是String 这就是编译器推断
  val z: View = findViewById(R.id.my_view) 
  if (z is TextView) {
      z.setText ("I've been casted!")
