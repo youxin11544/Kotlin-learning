@@ -1,6 +1,8 @@
 #初识kotlin
 （中文可以叫 科特林）
 
+#关于Android studio怎么使用kotlin这点就不用介绍了（网上一大把），需要注意的是Android studio的版本是2.3.3以上
+
 #基本语法
 1.三个关键字
   - var 声明**可变**的变量
