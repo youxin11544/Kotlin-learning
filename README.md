@@ -10,9 +10,29 @@ Android开发从java到kotlin
 ```
  val z: View = findViewById(R.id.my_view) 
  if (z is TextView) {
-     z.text = "I've been casted!"
+     z.setText ("I've been casted!")
  }
+ //这里 z没有经过转型就可以使用
 ```
+ 再来看看下面的比较
+ ```
+ //java
+ public String getName(Object object) {
+        if (object instanceof String) {
+            return (String) object;
+        }
+        return null;
+    }
+ 
+ //kotlin
+ fun getName(b:Any):String?{
+        if (b is String) {
+            return b;
+        }
+        return null;
+    }
+ ```
+ 
 
 #需要改变的观点
 
