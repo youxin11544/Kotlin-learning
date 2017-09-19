@@ -20,8 +20,8 @@ Android开发从java到kotlin，本文是增对有java基础的人学习。下�
 5.[属性和字段](https://github.com/youxin11544/Kotlin-learning/blob/master/%E5%B1%9E%E6%80%A7%E5%92%8C%E5%AD%97%E6%AE%B5.md)
 
 
+7.[数据类和密封类](https://github.com/youxin11544/Kotlin-learning/blob/master/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%92%8C%E5%AF%86%E5%B0%81%E7%B1%BB.md)
 
-7.[数据类和密封类](https://github.com/youxin11544/Kotlinlearning/blob/master/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%92%8C%E5%AF%86%E5%B0%81%E7%B1%BB.md)
 
 8.[泛型](https://github.com/youxin11544/Kotlin-learning/blob/master/%E6%B3%9B%E5%9E%8B.md)
 
