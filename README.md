@@ -14,7 +14,7 @@ Android开发从java到kotlin，本文是增对有java基础的人学习。下�
 
 3.[kotlin关键字](https://github.com/youxin11544/Kotlin-Simple/blob/master/kotlin%E5%85%B3%E9%94%AE%E5%AD%97.md)
 
-4.[类和继承](https://github.com/youxin11544/Kotlin-learning/blob/master/%E7%B1%BB%E5%92%8C%E7%BB%A7%E6%89%BF.md)
+4.[类和继承](https://github.com/youxin11544/Kotlin-learning/blob/master/%E5%B1%9E%E6%80%A7%E5%92%8C%E5%AD%97%E6%AE%B5.md)
 
 5.[属性和字段](https://github.com/youxin11544/Kotlin-learning/blob/master/%E7%B1%BB%E5%92%8C%E7%BB%A7%E6%89%BF.md)
 
