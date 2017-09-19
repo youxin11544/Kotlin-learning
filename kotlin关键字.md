@@ -25,4 +25,4 @@
 - open  //类可继承，类默认是final的
 - annotation  //注解类
 - init //主构造函数不能包含任何的代码。初始化的代码可以放到以 init 关键字作为前缀的初始化块（initializer blocks）中
-- field //field 标识符只能用在属性的访问器内。特别注意的是，get set方法中只能能使用filed 绝对的。属性访问器就是get set方法。洋气的名字
+- field //field 标识符只能用在属性的访问器内。特别注意的是，get set方法中只能能使用filed 绝对的。属性访问器就是get set方法。洋气的名字。关于这个我会在后面详细说明
