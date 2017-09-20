@@ -20,20 +20,20 @@ Android开发从java到kotlin，本文是增对有java基础的人学习。下�
 5.[属性和字段](https://github.com/youxin11544/Kotlin-learning/blob/master/%E5%B1%9E%E6%80%A7%E5%92%8C%E5%AD%97%E6%AE%B5.md)
 
 
-7.[数据类和密封类](https://github.com/youxin11544/Kotlin-learning/blob/master/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%92%8C%E5%AF%86%E5%B0%81%E7%B1%BB.md)
+6.[数据类和密封类](https://github.com/youxin11544/Kotlin-learning/blob/master/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%92%8C%E5%AF%86%E5%B0%81%E7%B1%BB.md)
 
 
-8.[泛型](https://github.com/youxin11544/Kotlin-learning/blob/master/%E6%B3%9B%E5%9E%8B.md)
+7.[泛型](https://github.com/youxin11544/Kotlin-learning/blob/master/%E6%B3%9B%E5%9E%8B.md)
 
 
-10.[委托（代理）](https://github.com/youxin11544/Kotlin-learning/blob/master/%E5%A7%94%E6%89%98(%E4%BB%A3%E7%90%86).md)
+8.[委托（代理）](https://github.com/youxin11544/Kotlin-learning/blob/master/%E5%A7%94%E6%89%98(%E4%BB%A3%E7%90%86).md)
 
-11.[函数和 Lambda 表达式](https://github.com/youxin11544/Kotlin-Simple/blob/master/kotlin%E5%85%B3%E9%94%AE%E5%AD%97.md)
+9.[函数和 Lambda 表达式](https://github.com/youxin11544/Kotlin-Simple/blob/master/kotlin%E5%85%B3%E9%94%AE%E5%AD%97.md)
 
-12.[解构声明](https://github.com/youxin11544/Kotlin-learning/blob/master/%E8%A7%A3%E6%9E%84%E5%A3%B0%E6%98%8E.md)
+10.[解构声明](https://github.com/youxin11544/Kotlin-learning/blob/master/%E8%A7%A3%E6%9E%84%E5%A3%B0%E6%98%8E.md)
 
-13.[集合](https://github.com/youxin11544/Kotlin-learning/blob/master/%E9%9B%86%E5%90%88.md)
+11.[集合](https://github.com/youxin11544/Kotlin-learning/blob/master/%E9%9B%86%E5%90%88.md)
 
-14.[区间/范围](https://github.com/youxin11544/Kotlin-learning/blob/master/%E5%8C%BA%E9%97%B4%E8%8C%83%E5%9B%B4.md)
+12.[区间/范围](https://github.com/youxin11544/Kotlin-learning/blob/master/%E5%8C%BA%E9%97%B4%E8%8C%83%E5%9B%B4.md)
 
 
