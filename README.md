@@ -25,7 +25,6 @@ Android开发从java到kotlin，本文是增对有java基础的人学习。下�
 
 8.[泛型](https://github.com/youxin11544/Kotlin-learning/blob/master/%E6%B3%9B%E5%9E%8B.md)
 
-9.[嵌套类和枚举类](https://github.com/youxin11544/Kotlin-learning/blob/master/%E5%B5%8C%E5%A5%97%E7%B1%BB%E5%92%8C%E6%9E%9A%E4%B8%BE%E7%B1%BB.md)
 
 10.[委托（代理）](https://github.com/youxin11544/Kotlin-learning/blob/master/%E5%A7%94%E6%89%98(%E4%BB%A3%E7%90%86).md)
 
