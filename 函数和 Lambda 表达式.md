@@ -58,6 +58,35 @@ public infix fun Short.downTo(to: Short): IntProgression {
 - 这节内容有的人可能有的学习起来会觉得有点难，其实只要转变一下观点记住下面的几点，就很简单了。看完后就可以愉快的看kotlin源码学习了。
 - 一个 lambda 表达式或匿名函数是一个“函数字面值(字面函数)”，即一个未声明的函数，做为表达式传递。
 - 函数类型：() -> T
-- kotlin 源码大量采用了lambda表达式，这样说明以后自己在写代码的时候，必然也会用到很多，这个也很简单，我们记住这点：将函数用作为参数或返回值的函数是   高阶函数，kotlin一般采用函数字面值(字面函数)的方式往高阶函数传参，一个高阶函数接受另一个lambda 表达式作为最后一个参数，lambda 表达式参数可以在
+- kotlin 源码大量采用了lambda表达式，这样说明以后自己在写代码的时候，必然也会用到很多，这个也很简单，我们记住这点：将函数用作为参数或返回值的函数是   高阶函数，kotlin一般采用函数字面值(字面函数)的方式往高阶函数传参，一个高阶函数接受另一个lambda 表达式作为**最后一个参数**，lambda 表达式参数可以在
   圆括号参数列表之外传递。
+- kotlin的lambda 表达式和高阶函数可以为我们省去以前很多的java接口。下面的接口省掉了OnClickListenter这个接口
 
+```
+
+//简单改造view的setOnClickListenter
+class Main2Activity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main2)
+        var view = View()
+        view.setOnClickListenter { 
+            it->it.toHome()
+        }
+    }
+}
+class View{
+    fun toHome() {
+        
+    }
+    fun setOnClickListenter(listerner: (v:View) -> Unit) {
+        listerner(this);
+    }
+}
+
+```
+
+```
+
+
+- 带接收者的函数字面值
