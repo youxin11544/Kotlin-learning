@@ -28,7 +28,7 @@ Android开发从java到kotlin，本文是增对有java基础的人学习。下�
 
 8.[委托（代理）](https://github.com/youxin11544/Kotlin-learning/blob/master/%E5%A7%94%E6%89%98(%E4%BB%A3%E7%90%86).md)
 
-9.[函数和 Lambda 表达式](https://github.com/youxin11544/Kotlin-Simple/blob/master/kotlin%E5%85%B3%E9%94%AE%E5%AD%97.md)
+9.[函数和 Lambda 表达式](https://github.com/youxin11544/Kotlin-learning/blob/master/%E5%87%BD%E6%95%B0%E5%92%8C%20Lambda%20%E8%A1%A8%E8%BE%BE%E5%BC%8F.md)
 
 10.[解构声明](https://github.com/youxin11544/Kotlin-learning/blob/master/%E8%A7%A3%E6%9E%84%E5%A3%B0%E6%98%8E.md)
 
