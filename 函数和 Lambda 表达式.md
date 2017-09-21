@@ -53,7 +53,7 @@ public infix fun Short.downTo(to: Short): IntProgression {
 
 从源码中可以看出 infix 的用法：当我们定义一个类的函数或者扩展函数的时候，如果这个函数接受的参数和自己是同一类的，并且又反回值那么就采用中缀表示法
 
-###　高阶函数与 lambda 表达式
+### 高阶函数与 lambda 表达式
 [lambda 表达式](http://www.yiibai.com/kotlin/object-declarations.html)
 - 这节内容有的人可能有的学习起来会觉得有点难，其实只要转变一下观点记住下面的几点，就很简单了。看完后就可以愉快的看kotlin源码学习了。
 - 一个 lambda 表达式或匿名函数是一个“函数字面值(字面函数)”，即一个未声明的函数，做为表达式传递。
