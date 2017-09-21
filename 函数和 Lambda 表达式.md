@@ -1,5 +1,6 @@
 ## 函数和 Lambda 表达式
-[Lambda 表达式](http://www.yiibai.com/kotlin/lambdas.html)
+- [Lambda 表达式](http://www.yiibai.com/kotlin/lambdas.html)
+- [内联函数](http://www.yiibai.com/kotlin/inline-functions.html#)
 ### 函数的中缀表示法
 [中缀表示法](http://www.yiibai.com/kotlin/functions.html)
 - 首先说它的使用条件：
@@ -88,7 +89,7 @@ class View{
 
 
 
-- 
+- 接受者 是接受这个函数的对象，也就是调用这个函数的对象
 - 带接收者的函数字面值：可以调用该接收者对象上的方法而无需任何额外的限定符。这类似于扩展函数，它允你在函数体内访问接收者对象的成员。
   可以这样理解，当我们在写一个高阶函数的时候，发觉需要用到lambda 表达式中参数对象里面的方法的时候，这个时候就用到带接收者的函数字面值。kotlin源码里   面很多这样的函数，下面举例说明：
 
