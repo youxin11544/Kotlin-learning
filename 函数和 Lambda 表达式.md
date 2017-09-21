@@ -130,8 +130,8 @@ class Main2Activity : AppCompatActivity() {
         var name = book.apply {
             var price = getPrice()
             if (price < 50) {
-                Toast.makeText(this@Main2Activity,"小于50", Toast.LENGTH_LONG).show()
-                type = "便宜书"
+                Toast.makeText(this@Main2Activity,"小于50", Toast.LENGTH_LONG).show()//this@Main2Activity 是this表达式
+                type = "便宜书"
             }else{
                 Toast.makeText(this@Main2Activity,"大于50", Toast.LENGTH_LONG).show()
                 type = "贵书"
