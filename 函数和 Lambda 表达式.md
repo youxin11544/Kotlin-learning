@@ -86,7 +86,68 @@ class View{
 
 ```
 
+
+
+
+- 带接收者的函数字面值：可以调用该接收者对象上的方法而无需任何额外的限定符。这类似于扩展函数，它允你在函数体内访问接收者对象的成员。
+  可以这样理解，当我们在写一个高阶函数的时候，发觉需要用到lambda 表达式中参数对象里面的方法的时候，这个时候就用到带接收者的函数字面值。kotlin源码里   面很多这样的函数，下面举例说明：
+
 ```
 
+  /**
+ * Calls the specified function [block] with the given [receiver] as its receiver and returns its result.
+ */
+  @kotlin.internal.InlineOnly
+  public inline fun <T, R> with(receiver: T, block: T.() -> R): R = receiver.block()
 
-- 带接收者的函数字面值
+/**
+ * Calls the specified function [block] with `this` value as its receiver and returns `this` value.
+ */
+@kotlin.internal.InlineOnly
+public inline fun <T> T.apply(block: T.() -> Unit): T { block(); return this }
+
+/**
+ * Calls the specified function [block] with `this` value as its argument and returns `this` value.
+ */
+@kotlin.internal.InlineOnly
+@SinceKotlin("1.1")
+public inline fun <T> T.also(block: (T) -> Unit): T { block(this); return this }
+
+```
+ 
+
+
+  然而这里几个函数在我们项目中会经常用到，比如这样：现在有一本书，我要更具他现在的价格来分类，分完之，还要的得到这么书的名字
+
+
+```
+
+class Main2Activity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main2)
+        var book = Book()
+        var name = book.apply {
+            var price = getPrice()
+            if (price < 50) {
+                Toast.makeText(this@Main2Activity,"小于50", Toast.LENGTH_LONG).show()
+                type = "便宜书"
+            }else{
+                Toast.makeText(this@Main2Activity,"大于50", Toast.LENGTH_LONG).show()
+                type = "贵书"
+            }
+        }.getName()
+    }
+}
+class Book{
+    var type:String? = null
+    fun getName():String {
+        return "youxin"
+    }
+    fun getPrice():Int {
+        return 100
+    }
+}
+
+```
+
