@@ -4,6 +4,7 @@ Android开发从java到kotlin，本文是增对有java基础的人学习。下�
 - [Kotlin官网-英语](https://kotlinlang.org/)
 - [huanglizhuo-github翻译的很好](https://github.com/huanglizhuo/kotlin-in-chinese)
 - [Kotlin教程链接](http://www.kotlindoc.cn/)
+- [入坑 Kotlin 开发前，这些项目能让你少走弯路](http://news.ifeng.com/a/20170825/51755041_0.shtml)
 
 
 
