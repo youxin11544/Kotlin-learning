@@ -33,7 +33,7 @@ Android开发从java到kotlin，本文是增对有java基础的人学习。下�
 
 10.[解构声明](https://github.com/youxin11544/Kotlin-learning/blob/master/%E8%A7%A3%E6%9E%84%E5%A3%B0%E6%98%8E.md)
 
-11.[集合](https://github.com/youxin11544/Kotlin-learning/blob/master/%E9%9B%86%E5%90%88.md)
+11.[集合 数组](https://github.com/youxin11544/Kotlin-learning/blob/master/%E9%9B%86%E5%90%88.md)
 
 12.[区间/范围](https://github.com/youxin11544/Kotlin-learning/blob/master/%E5%8C%BA%E9%97%B4%E8%8C%83%E5%9B%B4.md)
 
