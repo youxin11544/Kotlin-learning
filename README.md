@@ -27,7 +27,7 @@ Android开发从java到kotlin，本文是增对有java基础的人学习。下�
 7.[泛型](https://github.com/youxin11544/Kotlin-learning/blob/master/%E6%B3%9B%E5%9E%8B.md)
 
 
-8.[委托（代理）](https://github.com/youxin11544/Kotlin-learning/blob/master/%E5%A7%94%E6%89%98(%E4%BB%A3%E7%90%86).md)
+8.[单例模式+委托（代理）](https://github.com/youxin11544/Kotlin-learning/blob/master/%E5%A7%94%E6%89%98(%E4%BB%A3%E7%90%86).md)
 
 9.[函数和 Lambda 表达式，内联函数](https://github.com/youxin11544/Kotlin-learning/blob/master/%E5%87%BD%E6%95%B0%E5%92%8C%20Lambda%20%E8%A1%A8%E8%BE%BE%E5%BC%8F.md)
 
@@ -36,5 +36,7 @@ Android开发从java到kotlin，本文是增对有java基础的人学习。下�
 11.[集合 数组](https://github.com/youxin11544/Kotlin-learning/blob/master/%E9%9B%86%E5%90%88.md)
 
 12.[区间/范围](https://github.com/youxin11544/Kotlin-learning/blob/master/%E5%8C%BA%E9%97%B4%E8%8C%83%E5%9B%B4.md)
+
+12.[kotlin建造者模式](https://github.com/youxin11544/Kotlin-learning/blob/master/%E5%8C%BA%E9%97%B4%E8%8C%83%E5%9B%B4.md)
 
 
