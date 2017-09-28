@@ -37,6 +37,8 @@ Android开发从java到kotlin，本文是增对有java基础的人学习。下�
 
 12.[区间/范围](https://github.com/youxin11544/Kotlin-learning/blob/master/%E5%8C%BA%E9%97%B4%E8%8C%83%E5%9B%B4.md)
 
-12.[kotlin建造者模式](https://github.com/youxin11544/Kotlin-learning/blob/master/%E5%8C%BA%E9%97%B4%E8%8C%83%E5%9B%B4.md)
+13.[kotlin替换不必要的建造者模式](https://github.com/youxin11544/NumberPicker)
+
+14.[kotlin替换不必要的接口](https://github.com/youxin11544/NumberPicker)
 
 
