@@ -39,6 +39,6 @@ Android开发从java到kotlin，本文是增对有java基础的人学习。下�
 
 13.[kotlin替换不必要的建造者模式](https://github.com/youxin11544/NumberPicker)
 
-14.[kotlin替换不必要的接口](https://github.com/youxin11544/NumberPicker)
+14.[kotlin替换不必要的接口](https://github.com/youxin11544/Kotlin-learning/blob/master/%E5%8E%BB%E6%8E%89%E4%B8%8D%E5%BF%85%E8%A6%81%E7%9A%84%E6%8E%A5%E5%8F%A3.md)
 
 
